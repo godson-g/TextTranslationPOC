@@ -1,0 +1,30 @@
+Sample 1
+--------
+
+Input Text:
+Hello, how are you?
+
+Target Language:
+ta
+
+
+Sample 2
+--------
+
+Input Text:
+Good Morning
+
+Target Language:
+te
+
+
+Sample 3
+--------
+
+Input Text:
+Hello
+How are you?
+Good Morning
+
+Target Language:
+ta

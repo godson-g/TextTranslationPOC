@@ -1,0 +1,41 @@
+Sample 1
+---------
+
+Original Text:
+Hello, how are you?
+
+Translated Text:
+வணக்கம், நலமா?
+
+Target Language:
+ta
+
+
+Sample 2
+---------
+
+Original Text:
+Good Morning
+
+Translated Text:
+శుభోదయం
+
+Target Language:
+te
+
+
+Sample 3
+---------
+
+Original Text:
+Hello
+How are you?
+Good Morning
+
+Translated Text:
+வணக்கம்
+எப்படி இருக்கிறீர்கள்?
+காலை வணக்கம்
+
+Target Language:
+ta
