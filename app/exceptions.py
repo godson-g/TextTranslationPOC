@@ -7,17 +7,17 @@ def empty_text_exception():
     """
     raise HTTPException(
         status_code=400,
-        detail="Text cannot be empty."
+        detail="Text cannot be empty.",
     )
 
 
 def invalid_language_exception():
     """
-    Raised when an unsupported language code is provided.
+    Raised when an unsupported language name or code is provided.
     """
     raise HTTPException(
         status_code=400,
-        detail="Unsupported language."
+        detail="Unsupported language.",
     )
 
 
@@ -27,5 +27,5 @@ def translation_service_exception():
     """
     raise HTTPException(
         status_code=503,
-        detail="Translation service is currently unavailable. Please try again later."
+        detail="Translation service is currently unavailable. Please try again later.",
     )

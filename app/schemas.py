@@ -14,7 +14,7 @@ class TranslationRequest(BaseModel):
         ...,
         min_length=2,
         description="Target language name or language code, e.g. tamil or ta",
-        examples=["string"],
+        examples=["tamil"],
     )
 
 
