@@ -13,6 +13,7 @@ The project follows modular coding practices, includes input validation, excepti
 - Translate text into multiple languages
 - Supports both single-line and multi-line input
 - Retrieve the list of supported languages
+- Supports target language names and language codes (e.g., tamil or ta)
 - Input validation for empty text
 - Validation for unsupported language codes
 - Graceful error handling for translation service failures
@@ -152,7 +153,7 @@ Request Body
 ```json
 {
   "text": "Hello, how are you?",
-  "target_language": "ta"
+  "target_language": "tamil"
 }
 ```
 
@@ -162,7 +163,7 @@ Response
 {
   "original_text": "Hello, how are you?",
   "translated_text": "வணக்கம், நலமா?",
-  "target_language": "ta"
+  "target_language": "tamil"
 }
 ```
 
@@ -214,7 +215,7 @@ Example Error Response
 ## Assumptions
 
 - An active internet connection is required for translation.
-- Language codes should match the supported codes returned by the `/languages` endpoint.
+- Target language can be provided using a supported language name or language code, such as tamil or ta.
 - The translation output depends on the Google Translate service provided by the `deep-translator` library.
 
 ---
@@ -233,7 +234,6 @@ The log file records translation requests, successful operations, and errors for
 
 ## Future Enhancements
 
-- Language name support instead of language codes
 - Translation history
 - Authentication and authorization
 - Docker deployment
