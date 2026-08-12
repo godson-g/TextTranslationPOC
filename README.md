@@ -54,7 +54,6 @@ TextTranslationPOC/
 │
 ├── README.md
 ├── requirements.txt
-├── LICENSE
 └── .gitignore
 ```
 
